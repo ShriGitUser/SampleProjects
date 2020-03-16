@@ -1,0 +1,16 @@
+
+server:
+  port: 8080
+  servlet:
+    contextPath: /lms-customer
+    
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: 1234
+    driverClassName: org.h2.Driver
